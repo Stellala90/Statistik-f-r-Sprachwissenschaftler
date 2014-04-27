@@ -1,7 +1,7 @@
 # Hausaufgabe 03
-# Phillip Alday <phillip.alday@staff.uni-marburg.de>
-# 2014-04-23
-# Dieses Werk ist lizenziert unter einer CC-BY-NC-SA Lizenz.
+# Stellala90 <breunigs@students.uni-marburg.de>
+# 2014-04-27
+# Diese Datei darf nur zu Prüfungszwecken dienen.
 
 # Sie sollten die Datei auch in Ihren Ordner kopieren und einen Commit machen, 
 # bevor Sie die Kopie weiter anpassen! Vergessen Sie dabei nicht, Namen, Datum
@@ -109,13 +109,16 @@ print(my.data**3)
 
 # Nehmen Sie das erste Element aus dem obigen Ergebnis, um den Modalwert zu
 # bekommen:
-# modus <- code_hier
+# modus <- (tabelle.sorted[1])
+# print (modus)
 
 # Verständisfrage: gibt es immer nur *einen* Modalwert? 
 # Wenn nicht, ist der Code oben korrekt? Warum?
 # Schreiben Sie Ihre Antwort als Comment hier.
 
-# antwort_hier
+# Die Verteilung könnte auch bimodal oder multimodal sein.In diesem Fall dürfte 
+# man nicht nur das erste Element aus der Liste wählen, um zu verhindern, dass nur 
+# ein Modus abgebildet werden würde.
 
 # Als Abscheid ein Beispiel mit der Darstellung Frequenzdaten mit Säulendiagramm
 # bzw. Histogramm
