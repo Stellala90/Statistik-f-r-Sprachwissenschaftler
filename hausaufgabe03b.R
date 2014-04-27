@@ -96,7 +96,7 @@ print(my.data**3)
 # print(tabelle.rel)
 
 # Vervollständigen Sie folgende Zeile, sodass Prozentwerte aus den relativen
-# Häufigkeiten entst ehen: tabelle.prozent <- tabelle.rel code_hier 
+# Häufigkeiten entst ehen: tabelle.prozent <- tabelle.rel*100 
 # print(tabelle.prozent)
 
 # Aber die Frage bleibt, wie berechnen wir den Modus? Durch sortieren!
