@@ -1,6 +1,6 @@
 % Hausaufgabe 03
 % Stellala90 <breunigs@students.uni-marburg.de>
-% 2014-04-25
+% 2014-04-25ffs
 
 Falls die Umlaute in dieser und anderen Dateien nicht korrekt dargestellt werden, sollten Sie File > Reopen with Encoding > UTF-8 sofort machen (und auf jeden Fall ohne davor zu speichern), damit die Enkodierung korrekt erkannt wird! 
 
@@ -85,7 +85,7 @@ R-Code können Sie auch direkt in den Fließtext bauen: Die Quadratwurzel von 13
 
 Ergänzen Sie folgende Zeile mit Inline R-code, sodass der Satz korrekt und vollständig ist:
 
-Die Summe von 98545455678767 und 567886538546532323 ist: code_hier .
+Die Summe von 98545455678767 und 567886538546532323 ist: 5.6799 &times; 10<sup>17</sup> 
 
 # Normaler R-Code 
 Es ist natürlich auch möglich R-Code zu schreiben, ohne ihn in (R)Markdown einzubetten. Dazu geht die Aufgabe weiter mit `hausaufgabe03b.R` weiter. Sie sollten die Datei auch in Ihren Ordner kopieren und einen Commit machen, bevor Sie die Kopie weiter anpassen.
