@@ -47,28 +47,33 @@ Woche | Datum          | Themen
 |     |                | 2. [warum es in den letzten Jahren eine Krise in der Wissenschaft gibt](http://www.economist.com/news/briefing/21588057-scientists-think-science-self-correcting-alarming-degree-it-not-trouble).
 |     | **06.05.2014** | Statistische Inteferenz, $p$-Werte, Intuition von "Messfehler" und "Wahrscheinlichkeit", Fehler-Arten
 |     |                | *Hausaufgabe bis 12.05.2014 12 Uhr:*
+<<<<<<< HEAD
 |     |                | 1. 
 05.   | **12.05.2014** |  Frequentism vs Bayes
 >>>>>>> de746f8e4a9b042787f9951cf06a581018e7b28e
+=======
+|     |                | 1. `hausaufgabe07.Rmd`
+05.   | **12.05.2014** | Mehr zu Stichproben, Vergleich von Gruppen ($t$-Test) und Condidence-Intervale, evtl. [BEST](http://www.indiana.edu/~kruschke/BEST/) (etwa bayes'scher $t$-Test) und Credible-Intervale  
+>>>>>>> 6b0b6a6065d1ac322ceb938a4393611eba539bfa
 |     | **13.05.2014** | Interferenz in der Praxis: Der Sinn von statischen Tests, neuartige Fehler 
-06.   | **19.05.2014** | 
-|     | **20.05.2014** | 
-07.   | **26.05.2014** | 
-|     | **27.05.2014** | 
-08.   | **02.06.2014** | 
-|     | **03.06.2014** | 
-09.   | **09.06.2014** |  fällt aus! (Pfingstmontag)
-|     | **10.06.2014** | 
-10.   | **16.06.2014** | 
-|     | **17.06.2014** | 
-11.   | **23.06.2014** | 
-|     | **24.06.2014** | 
-12.   | **30.06.2014** | 
-|     | **01.07.2014** | 
-13.   | **07.07.2014** | 
-|     | **08.07.2014** | 
-14.   | **14.07.2014** | 
-|     | **15.07.2014** | 
+06.   | **19.05.2014** | ANOVA I
+|     | **20.05.2014** | ANOVA II
+07.   | **26.05.2014** | ANOVA III
+|     | **27.05.2014** | ANOVA IV (evtl. auch Fixed vs. Random Effects à Clark 1973)
+08.   | **02.06.2014** | lineare Regression I 
+|     | **03.06.2014** | lineare Regression II
+09.   | **09.06.2014** | fällt aus! (Pfingstmontag)
+|     | **10.06.2014** | Korrelationen I  
+10.   | **16.06.2014** | Korrelationen II, $\chi^2$, logLikelihood & Likelihood-Ratio 
+|     | **17.06.2014** | das generalisierte lineare Model (GLM), logit-Regression
+11.   | **23.06.2014** | gemischte Modelle I
+|     | **24.06.2014** | gemischte Modelle II
+12.   | **30.06.2014** | Nicht-parametrische Tests I
+|     | **01.07.2014** | Nicht-parametrische Tests II 
+13.   | **07.07.2014** | Nicht-parametrische Tests III
+|     | **08.07.2014** | Experimentaldesign
+14.   | **14.07.2014** | Fragestunde / Puffer
+|     | **15.07.2014** | Klausur
 
 # Software
 - [R](http://cran.r-project.org/)
