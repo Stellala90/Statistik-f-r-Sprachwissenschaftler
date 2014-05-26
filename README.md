@@ -73,10 +73,19 @@ Woche | Datum          | Themen
 |     |                | *Hausaufgabe bis 19.05.2014 12 Uhr:*
 |     |                | 1. `hausaufgabe09.R`
 06.   | **19.05.2014** | Confidence und Credible-Intervale, BEST, Interferenz in der Praxis: Der Sinn von statischen Tests, neuartige Fehler, Unterschiede in frequentistischen und bayes'schen Aussagen
+<<<<<<< HEAD
 |     | **20.05.2014** | ANOVA I
 07.   | **26.05.2014** | ANOVA II
 |     | **27.05.2014** | ANOVA III (evtl. auch Fixed vs. Random Effects à Clark 1973)
 >>>>>>> a93ff1eb332de38a2e7a658a25d8ecc59bc55680
+=======
+|     | **20.05.2014** | Intervale II
+|     |                | *Hausaufgabe bis 26.05.2014 12 Uhr:*
+|     |                | 1. Shiny apps anschauen
+|     |                | 2. sich erholen
+07.   | **26.05.2014** | ANOVA I
+|     | **27.05.2014** | ANOVA II (evtl. auch Fixed vs. Random Effects à Clark 1973)
+>>>>>>> c36f07d9f256c9b799dd8239e71bbc1fb7028ae8
 08.   | **02.06.2014** | lineare Regression I 
 |     | **03.06.2014** | lineare Regression II
 09.   | **09.06.2014** | fällt aus! (Pfingstmontag)
@@ -151,14 +160,23 @@ Die Reihe *Use R!* von Springer ist **kostenlos** über das Uni-Netz elektronisc
 * [Understanding Simpson’s paradox using a graph](http://andrewgelman.com/2014/04/08/understanding-simpsons-paradox-using-graph/)
 * [loess explained in a GIF](http://simplystatistics.org/2014/02/13/loess-explained-in-a-gif/)
 * [On Chomsky and the Two Cultures of Statistical Learning](http://norvig.com/chomsky.html)
-* [Big Data…Big Deal? Maybe, if Used with Caution.](http://andrewgelman.com/2014/04/27/big-data-big-deal-maybe-used-caution/)
+* [Big Data...Big Deal? Maybe, if Used with Caution.](http://andrewgelman.com/2014/04/27/big-data-big-deal-maybe-used-caution/)
 * [Schools of Statistical Thought as Religion](http://andrewgelman.com/2014/04/12/schools-of-statistical-thoughts-are-sometimes-jokingly-likened-to-religions-this-analogy-is-not-perfect-unlike-religions-statistical-methods-have-no-supernatural-content-and-make-essentially-no-d/)
 * [Bayesian Modelling of Anscombe's Quartet](http://www.sumsar.net/blog/2013/06/bayesian-modeling-of-anscombes-quartet/)
+* [Bayesian or Frequentist, Which Are You?](http://videolectures.net/mlss09uk_jordan_bfway/) vielleicht die beste holistische Perspektive!
 * Software für Bayesian Modelling (wird nicht im Kurs genutzt, aber vielleicht interessant)
     - [Stan](http://mc-stan.org/)
     - [JAGS](http://mcmc-jags.sourceforge.net/)
     - [BUGS](http://www.openbugs.net/w/FrontPage)
     - [Fitting linear mixed models using JAGS and Stan: A tutorial](http://www.ling.uni-potsdam.de/~vasishth/BayesLMMs.html)
+* xkcd
+    - [Correlation](http://xkcd.com/552/)
+    - [Correlation and Trends](http://www.xkcd.com/925/)
+    - [Correlation and Heatmaps](http://www.xkcd.com/1138/)
+    - [Conditional Risk](http://xkcd.com/795/)
+    - [Null Hypothesis](http://www.xkcd.com/892/)
+    - [Frequentists vs. Bayesians](http://xkcd.com/1132/)
+* [Spurious Correlations](http://www.tylervigen.com/)
 
 # License
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/de/.
