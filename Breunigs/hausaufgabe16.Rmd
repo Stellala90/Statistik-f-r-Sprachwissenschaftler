@@ -59,24 +59,32 @@ ggplot(diamonds,aes(x=carat,y=price,color=color)) + geom_point() + facet_wrap(~c
 ```
 
 # Analyse
-Haben Gewicht (carat) und Farbe (color) einen Einfluss auf den Preis?
+Welchen Zusammenhang haben Karat und Klarheit/Farbe von Diamanten?
 
-```{r}
-anova.1 <- aov(price ~ carat*color, data=diamonds)
-summary(anova.1)
-```
+ggplot(diamonds, aes(x=carat, y=clarity, color=color))+ geom_point(alpha=.5) 
 
-```{r}
-ggplot(diamonds, aes(x=carat, y=price, color=color)) + geom_point() + facet_wrap(~color)
-```
- Das Merkmal der Farbe ist an der Graphik nicht besonders gut zu erkennen, deswegen noch eine Graphik im "Violin"-Format:
+Die Grafik lässt vermuten: Je mehr Karat, desto schlechter die Klarheit.
+Ist das denn wirklich so? Ich schaue mir die Daten an:
 
-```{r}
-ggplot(diamonds) + geom_violin(aes(x=color, y=price, color=color, fill = color),alpha=0.3)
-```
-Das Gewicht hat einen größeren Einfluss auf den Preis als die Farbe.
-Je schwerer der Diamant, desto teurer ist er. Der Einfluss der Farben auf den Preis ist weniger eindeutig. Scheinbar sind Diamanten der Farbe J besonders teuer, die der Farbe E besonders günstig.
-Die Graphiken veranschaulichen dieses Ergebnis.
+summary(lm(carat~clarity,data=diamonds))
+ 
+Der Test ergibt einen p-Wert von <2e-16, womit der beschriebene Zusammenhang von Karat und Klarkeit bei einem vorgegebenen Signifikanzniveau von 5 % signifikant ist.
+
+
+Einfluss der kategorialen Variable Farbe?
+Anhand der Darstellung der vorherigen Grafik ist nur schwer ein Zusammenhang erkennbar. 
+Versuch einer besseren Dastellung:
+
+ggplot(diamonds, aes(x=carat, y=color))+ geom_point(alpha=.5)
+
+Es scheint, dass je mehr Karat, desto schlechter die Farbe (z.B ~2,75 Karat entspricht einer Farbe zwischen H und J, wobei ~2,0 Karat eher einer Farbe zwischen F und D entspricht). 
+Ist der Einfluss von Farbe auf Karat signifikant? 
+
+diamonds$color.numeric <- as.numeric(diamonds$color)
+summary(lm(carat~color.numeric,data=diamonds))
+
+Auch der Einfluss von Farbe auf Karat ist mit einem p-Wert von <2.2e-16 signifikant.
+
 
 # Noch eine Überlegung
 Haben Sie dabei explorativ oder konfirmativ gearbeitet? Was hat das für eine Auswirkung auf die Interpretation der Ergebnisse?
