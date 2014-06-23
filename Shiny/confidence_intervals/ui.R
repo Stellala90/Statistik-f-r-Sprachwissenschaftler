@@ -26,11 +26,13 @@ shinyUI(fluidPage(
                  ,  sliderInput("conf.level"
                                 ,"Confidence Level"
                                 ,min = 0.01
+                                ,step = 0.01
                                 ,max = 0.99
 <<<<<<< HEAD
                                 ,value = 0.95)
 =======
                                 ,value = 0.95
+                                ,format = "#.##"
                                 ,animate=animationOptions(interval=6000,loop=TRUE))
 >>>>>>> a93ff1eb332de38a2e7a658a25d8ecc59bc55680
                  ,  sliderInput("sd"
