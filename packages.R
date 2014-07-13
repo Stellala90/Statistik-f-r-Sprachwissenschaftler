@@ -14,6 +14,10 @@ packages.used <- c("knitr","knitcitations"
                    ,"ez"
                    ,"faraway"
                    ,"lme4"
+<<<<<<< HEAD
+=======
+                   ,"gmodels"
+>>>>>>> 9accc9a208431fcb1fb0c0e553416cdcef1be236
                    ,"effects"
                    )
 
